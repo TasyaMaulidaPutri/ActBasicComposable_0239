@@ -101,8 +101,9 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             Image(
                 painter = fotoTasya,
                 contentDescription = "Foto Tasya",
-                modifier = Modifier,
-
+                modifier = Modifier
+                    .size(200.dp)
+                    .clip(CircleShape),
                 contentScale = ContentScale.Crop
             )
 
