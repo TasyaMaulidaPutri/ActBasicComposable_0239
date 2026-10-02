@@ -32,8 +32,7 @@ import com.google.ai.client.generativeai.common.shared.Content
 @Composable
 fun TugasLogin(modifier: Modifier = Modifier) {
     val background = painterResource(id = R.drawable.background)
-    val logo_umy = painterResource(id = R.drawable.background)
-    val fotoTasya = painterResource(id =R.drawable.foto_tasya)
+
 
     Box(modifier = modifier.fillMaxSize()){
         Image(
@@ -62,11 +61,18 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = Color.Black
             )
 
+            Spacer(modifier = Modifier.height(24.dp))
+
+
+
+            Spacer(modifier = Modifier.height(24.dp))
+
 
 
         }
     }
 }
+
 
 
 
