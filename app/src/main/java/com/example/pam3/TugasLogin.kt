@@ -75,6 +75,29 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(24.dp))
 
+            // Identitas
+            Text(
+                text = "Nama",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+            Text(
+                text = "Tasya Maulida Putri",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+            Text(
+                text = "20240140239",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+
 
         }
     }
