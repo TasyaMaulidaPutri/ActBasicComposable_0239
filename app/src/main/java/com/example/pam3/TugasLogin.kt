@@ -103,13 +103,21 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 contentDescription = "Foto Tasya",
                 modifier = Modifier
                     .size(200.dp)
-                    .clip(CircleShape),
+                    .clip(CircleShape)
+                    .background(Color(0xFFE8E8F4))
+                    .border(width = 4.dp, color = Color.White, shape = CircleShape),
                 contentScale = ContentScale.Crop
             )
 
 
         }
     }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun TugasLoginPreview() {
+    TugasLogin()
 }
 
 
