@@ -32,6 +32,10 @@ import com.google.ai.client.generativeai.common.shared.Content
 @Composable
 fun TugasLogin(modifier: Modifier = Modifier) {
 
+
+    Box(modifier = modifier.fillMaxSize()){
+
+    }
 }
 
 
